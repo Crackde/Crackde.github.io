@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+  <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("1d-BTCUSDT.html"); 
+    });
+    </script> 
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+     <div class="row">
+        <div class="column">
+            <div id="includedContent"></div>
+        
+        
+        </div>
+        <div class="column"></div>
+    </div> 
+    
+    
+    
+    </main>
+    <footer></footer>
+  </body>
+</html>
